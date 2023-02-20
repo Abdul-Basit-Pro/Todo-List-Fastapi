@@ -8,7 +8,7 @@ import models
 
 models.Base.metadata.create_all(bind=engine)
 
-templates = Jinja2Templates(directory="templates")
+templates = Jinja2Templates(directory="/")
 
 app = FastAPI()
 
